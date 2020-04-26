@@ -1,0 +1,19 @@
+h1 {
+  color: rgb(47, 0, 255);
+  text-align: center;
+}
+h2 {
+  color: rgb(rgb(245, 18, 18), green, blue);
+}
+.sidebar {
+  display: inline-block;
+}
+.left {
+  width: 30%;
+}
+.left img {
+  width: 100%;
+}
+.right {
+  vertical-align: top;
+}
