@@ -3,42 +3,53 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Resume</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <aside>
-        <img src="img\me.jpg" alt="My photo"/>
+    <div class="wrapper">
+    <aside class="sidebar">
+        <img class="my-photo" src="img\me.jpg" alt="My photo"/>
                     <!--conntacts-->
 
-        <div>
-            <h3>Contacts: </h3>
-            <div>C:<a href="tel: +38 099 9839791">+38 099 9839791</a></div>
-            <div>E:<a href="mailto: olechka.tischenko@gmail.com">olechka.tischenko@gmail.com</a></div>
+        <div class="contacts-container">
+            <h3 class="contacts-title">Contacts: </h3>
+            <div>
+                <span class="contacts-link-type">C:</span>
+                <a class="contacts-link" href="tel: +38 099 9839791">+38 099 9839791</a>
+            </div>
+            <div>                
+                <span class="contacts-link-type">E:</span>
+                <a class="contacts-link" href="mailto: olechka.tischenko@gmail.com">olechka.tischenko@gmail.com</a>
+            </div>
         </div>
-        <div>
-        <h3>Tech Skills</h3>
+        <div class="tech-skills-container">
+        <h3 class="tech-skills-title">Tech Skills</h3>
         <ul>
-            <li>HTML5</li>
-            <li>Se Ranking, Google Ads, Yandex Direct</li>
+            <li class="tech-skills-item"><span class="tech-skills-text">HTML</span></li>
+            <li class="tech-skills-item"><span class="tech-skills-text"> Word Press, Joomla</span></li>
+            <li class="tech-skills-item"><span class="tech-skills-text">Se Ranking, Google Ads, Yandex Direct</span></li>
         </ul>
         </div>
-            <h3>Soft Skills</h3>
+            <div class="soft-skills-container">
+            <h3 class="soft-skills-title">Soft Skills</h3>
         <ul>
-            <li>Problem Solving Skills.</li>
-            <li>Leadership Skills.</li>
-            <li>Teamwork.</li>
-            <li>Emotional Intelligence.</li>
-            <li>Communication Skills.</li>
+            <li class="soft-skills-item"><span class="soft-skills-text">Problem Solving Skills</span></li>
+            <li class="soft-skills-item"><span class="soft-skills-text">Leadership Skills</span></li>
+            <li class="soft-skills-item"><span class="soft-skills-text">Teamwork</span></li>
+            <li class="soft-skills-item"><span class="soft-skills-text">Emotional Intelligence</span></li>
+            <li class="soft-skills-item"><span class="soft-skills-text">Communication Skills</span></li>
         </ul>
         </div>
     </aside>
+    <div class="main-container">
     <!--about me main-->
     <div>
-    <h2>Content Manager, Head Customer Support Manager</h2>
+    <h2>Frontend Web Developer </h2>
     <h1>Olga Tishchenko</h1>
     <p>
-        Writing articles, adding information, update it at the websites of
-        company.
+        Producing HTML, CSS and JavaScript for a website or Web Application
     </p>
     </div>
     <div>
@@ -71,7 +82,6 @@
                 mission. Implementation of changes for decision making.
             </li>
             <li>Implementation of changes for decision making.
-
             </li>
             <li> HR-manager: search, studying, control of the knowledge and quality of
             the service.
@@ -99,11 +109,13 @@
             </div>
             <div>
             <h2>Education</h2>
-            <h3>Oles Honchar Dnipro National University</h3>
-                <h4>Chemist faculty</h4>
+            <p>Oles Honchar Dnipro National University</p>
+                <p>Chemist faculty</p>
                 <span>September 2000 - June 2005| Ukraine</span>
             </div>
         </div>
+    </div>
+    </div>
     </div>
     </div>
     </body>
